@@ -170,17 +170,20 @@
         </div>
     </section>
     
-    <!-- Our Services -->
-    <section id="services" class="container content-section text-center">
+    <!--// Our Services //-->
+    <!--<section id="services" class="container content-section text-center">-->
         <!--def class fixed_width & header-->
-        <div class="fixed_w">
-            <h2>Our Services</h2>
+        <!--<div class="fixed_w">-->
+        
+        <section class="promo section offset-header has-pattern" id="promo">
+        <div class="container">
+        <div class="row">
+        <div class="overview col-md-1">&nbsp;</div>
+
+<div class="overview col-md-6 col-sm-12 col-xs-12 col-md-offset1">
+            
+            <h2 class="title">Our Services</h2>
                 <div class="row">
-            <!--<div class="col-lg-8 col-lg-offset-2">
-                <h2>Our Services</h2>
-                <p>(Désiré,Salim)
-                </p>
-            </div>-->
             <!--Features block-->
                     <div class="col-lg-8 col-lg-offset-2 fea_item wow bounceInUp">
                         <h3><i class="fa fa-map-marker"></i> Geolocation</h3>
@@ -198,6 +201,27 @@
                     </div>
                     <br><br/>
                 </div>
+                
+                <!--// iPhone starts -->
+                <div class="phone iphone iphone-black col-md-3 col-sm-12 col-xs-12">
+<div class="iphone-holder phone-holder">
+<div class="iphone-holder-inner">
+<div class="slider flexslider">
+<ul class="slides">
+	<li><img alt="" src="/uploads/media/trip/0007/94/f305bd08f0f579e45af0664f803b5248a7e2239b.png" /></li>
+	<li><img alt="" src="/uploads/media/trip/0007/94/f1aa0db4d7eceafbd5a5b7beb017898e7b7b027b.png" /></li>
+	<li><img alt="" src="/uploads/media/trip/0007/94/46b3949bdc2e6bf4742a909462f9e0d468200e0f.png" /></li>
+	<li><img alt="" src="/uploads/media/trip/0007/94/56febbb72d30e702670073e0fb90665fcff0d202.png" /></li>
+	<li><img alt="" src="/uploads/media/trip/0007/94/bad902c76387345b48a4dc8aaa952d6530b91386.png" /></li>
+	<li><img alt="" src="/uploads/media/trip/0007/94/750f7564f1f36105949c7c1d9b53fed7bbf4d334.png" /></li>
+</ul>
+<!--//slides--></div>
+<!--//flexslider--></div>
+<!--//iphone-holder-inner--></div>
+<!--//iphone-holder--></div>
+<!--//iphone--><!--// iPhone ends --></div>
+<!--//row--></div>
+</section>
           
         </div>
     </section>
@@ -249,6 +273,29 @@
 
     <!-- Map Section -->
     <div id="map"></div>
+    
+    <!DOCTYPE html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+</body>
+
+</html>
 
     <!-- Footer -->
     <footer>
