@@ -70,7 +70,7 @@ styles: [{
             "featureType": "water",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#00ccff"
             }, {
                 "lightness": 17
             }]
@@ -86,7 +86,7 @@ styles: [{
             "featureType": "road.highway",
             "elementType": "geometry.fill",
             "stylers": [{
-                "color": "#000000"
+                "color": "#ff4400"
             }, {
                 "lightness": 17
             }]
@@ -167,7 +167,7 @@ styles: [{
             "featureType": "administrative",
             "elementType": "geometry.stroke",
             "stylers": [{
-                "color": "#000000"
+                "color": "#ff0000"
             }, {
                 "lightness": 17
             }, {
